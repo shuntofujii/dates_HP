@@ -109,6 +109,7 @@ header #logo img {
 }
 #contents section {
 	padding-top: 10px;
+	padding-bottom: 20px;
 }
 /*コンテンツ内にあるh2(見出し)タグの指定*/
 #contents h2 {
