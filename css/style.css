@@ -105,7 +105,7 @@ header #logo img {
 ---------------------------------------------------------------------------*/
 #contents {
 	overflow: hidden;
-	padding: 50px 5%;
+	padding: 30px 0%;
 }
 #contents section + section {
 	padding-top: 30px;
