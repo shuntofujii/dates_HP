@@ -83,14 +83,14 @@ header #logo img {
 #menubar li a {
 	font-family: wedding-gothic-atf, sans-serif;
 	text-decoration: none;display: block;text-align: center;
-	width: 200px;	/*メニューの幅*/
+	width: 140px;	/*メニューの幅*/
 	color: #231050;	/*文字色*/
 	border-bottom: 2px solid transparent;	/*下線の幅、線種、色。transparentは透明の事。*/
 	padding-bottom: 7px;	/*下線と文字の間にとる余白*/
 }
 /*マウスオン時の指定*/
 #menubar li a:hover {
-	border-bottom: 2px solid #231050;	/*下線の幅、線種、色*/
+	/*border-bottom: 2px solid #231050;	/*下線の幅、線種、色*/
 	letter-spacing: 0.1em;			/*文字間隔を少しだけ広くする指定。そのままがいいならこの１行を削除。*/
 }
 
@@ -105,11 +105,10 @@ header #logo img {
 ---------------------------------------------------------------------------*/
 #contents {
 	overflow: hidden;
-	padding: 50px 5%;
+	padding: 50px 15%;
 }
-#contents section {
-	padding-top: 10px;
-	padding-bottom: 20px;
+#contents section + section {
+	padding-top: 30px;
 }
 /*コンテンツ内にあるh2(見出し)タグの指定*/
 #contents h2 {
@@ -170,7 +169,7 @@ header #logo img {
 }
 /*画像の設定*/
 .list img {
-	width: 20%;			/*画像幅*/
+	width: 30%;			/*画像幅*/
 	float: left;		/*画像を左に回り込み*/
 	margin-right: 3%	/*画像の右側に空けるスペース*/
 }
