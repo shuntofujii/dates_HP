@@ -97,7 +97,7 @@ header #logo img {
 /*コンテナー（headerとfooterをのぞくブロックを囲むブロック）
 ---------------------------------------------------------------------------*/
 #container {
-	max-width: 1400px;	/*最大幅。これ以上広くならない指定。*/
+	max-width: 960px;	/*最大幅。これ以上広くならない指定。*/
 	margin: 0 auto;
 }
 
@@ -105,7 +105,7 @@ header #logo img {
 ---------------------------------------------------------------------------*/
 #contents {
 	overflow: hidden;
-	padding: 50px 15%;
+	padding: 50px 5%;
 }
 #contents section + section {
 	padding-top: 30px;
