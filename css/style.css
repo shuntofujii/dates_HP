@@ -152,7 +152,6 @@ header #logo img {
 
 .explanation{
 	font-family: wedding-gothic-atf, vdl-v7gothic, sans-serif;
-	margin-top: 20px;
 	margin-bottom: 40px;
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -327,7 +326,7 @@ ul.disc {padding: 0em 25px 15px 40px;list-style: disc;}
 .c {text-align: center;}
 .r {text-align: right;}
 .l {text-align: left;}
-.big1 {font-size: 25px;color: #A1433B;letter-spacing: 0px; text-decoration: underline;	}
+.big1 {font-size: 20px;color: #A1433B;letter-spacing: 0px; text-decoration: underline;	}
 .mini1 {font-size: 11px;display: inline-block;line-height: 1.5;}
 .sh {display: none;}
 
