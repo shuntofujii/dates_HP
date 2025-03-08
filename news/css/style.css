@@ -12,7 +12,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #231050;	/*全体の文字色*/
-	font-family:wedding-gothic-atf,vdl-v7gothic,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-family:vdl-v7gothic,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	font-size: 16px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
 	background: #EBF1FF;	/*背景色*/
@@ -25,6 +25,15 @@ img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 iframe {width: 100%;}
 
+h1{font-size: 24px;
+	font-weight:bold;
+	margin-bottom: 24px;
+}
+h2{font-size: 18px;
+	font-weight:bold;}
+h3{font-size: 12px;
+	font-weight:bold;}
+
 @keyframes opa1 {
 0% {opacity: 0;}
 100% {opacity: 1;}
@@ -33,7 +42,7 @@ iframe {width: 100%;}
 /*リンク（全般）設定
 ---------------------------------------------------------------------------*/
 a {
-	font-family: wedding-gothic-atf, vdl-v7gothic, sans-serif;
+	font-family: vdl-v7gothic, sans-serif;
 	color: #A1433B;		/*リンクテキストの色*/
 	transition: 0.5s;	/*マウスオン時の移り変わるまでの時間設定。0.5秒。*/
 	animation-delay: 1S;
@@ -48,18 +57,18 @@ a:hover {
 /*ヘッダー（一番上の、ロゴやメニューが入っているブロック）
 ---------------------------------------------------------------------------*/
 header {
-	height: 100%;
+	margin-bottom: -130px;
+	height: 20%;
 	overflow: auto;
-	position: relative;
-	background: #EBF1FF;	/*背景色*/
+	position: relative;	/*背景色*/
 }
 /*ロゴ画像*/
 header #logo img {
 	display: block;
-	width: 20%;	/*画像の幅*/
+	width: 10%;	/*画像の幅*/
 	position: absolute;
-	left: 40%;		/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
-	bottom: 50%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
+	left: 45%;		/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
+	bottom: 60%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
 }
 
 /*メニュー
@@ -113,9 +122,9 @@ header #logo img {
 }
 /*コンテンツ内にあるh2(見出し)タグの指定*/
 #contents h2 {
-	font-family: wedding-gothic-atf, sans-serif;
+	font-family: vdl-v7gothic, sans-serif;
 	margin-top: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	clear: both;
 	padding: 0 40px;
 	font-size: 20px;		/*文字サイズ*/
@@ -126,20 +135,21 @@ header #logo img {
 	border-radius: 100px;	/*角を丸くする指定。大きめであれば適当で構いません。*/
 	box-shadow: 1.5px 1.5px 2px #b5b9eb, -1.5px -1.5px 2px #ffffff;
 }
+.titledates{
+	font-family: wedding-gothic-atf, vdl-v7gothic, sans-serif;
+}
 /*コンテンツ内にあるh3(見出し)タグの指定*/
-#contents h3 {
+ #contents h3 {
 	margin-bottom: 20px;
+	margin-top: 20px;
 	clear: both;
 	padding: 0 20px;
 	font-size: 18px;		/*文字サイズ*/
-	text-align: center;		/*文字をセンタリング*/
 	letter-spacing: 0.1em;	/*文字間隔を少しだけ広くする指定*/
-	border: 2px solid #fff;	/*枠線の幅、線種、色*/
-	border-radius: 100px;	/*角を丸くする指定。大きめであれば適当で構いません。*/
 }
 /*コンテンツ内にあるp(段落)タグ設定*/
 #contents p {
-	padding: 0px 20px 20px;	/*上、左右、下への余白*/
+	padding: 0px 20px 0px;	/*上、左右、下への余白*/
 }
 /*他。微調整。*/
 #contents p + p {
@@ -152,7 +162,7 @@ header #logo img {
 
 .explanation{
 	font-family: wedding-gothic-atf, vdl-v7gothic, sans-serif;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	text-align: center;
 	letter-spacing: 0.1em;
 }
@@ -341,8 +351,8 @@ ul.disc {padding: 0em 25px 15px 40px;list-style: disc;}
 ---------------------------------------------------------------------------*/
 /*ロゴ画像*/
 header #logo img {
-	width: 30%;	/*画像の幅*/
-	left: 35%;	/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
+	width: 20%;	/*画像の幅*/
+	left: 40%;	/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
 }
 
 }
@@ -357,8 +367,8 @@ header #logo img {
 ---------------------------------------------------------------------------*/
 /*ロゴ画像*/
 header #logo img {
-	width: 50%;	/*画像の幅*/
-	left: 25%;	/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
+	width: 30%;	/*画像の幅*/
+	left: 35%;	/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
 }
 
 /*コンテナー（headerとfooterをのぞくブロックを囲むブロック）
