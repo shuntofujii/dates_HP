@@ -1,0 +1,27 @@
+/* TEAM */
+Founder: 藤井 洵斗 (Fujii Shunto)
+Site: https://shuntofujii.com/dates/
+From: Japan
+
+Co-founder: 小泉 昂也 (Koizumi Takaya)
+From: Japan
+
+Engineer: 山下 郁矢 (Yamashita Fumiya)
+Site: https://tahmarrrr23.dev/
+From: Japan
+
+PR: 久次米 啓佑 (Kujime Keisuke)
+From: Japan
+
+/* SITE */
+Standards: HTML5, CSS3, Schema.org JSON-LD
+Language: Japanese (ja)
+Doctype: HTML5
+Canonical: https://www.corporate.dates.jp/
+Product: https://dates.jp/
+Contact: customer@dates.jp
+Twitter: @DATEsJP
+
+/* THANKS */
+Name: 埼玉県横瀬町 よこらぼ
+Site: https://www.town.yokoze.saitama.jp/

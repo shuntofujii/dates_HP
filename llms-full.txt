@@ -1,0 +1,61 @@
+# Project of DATEs — Full context for AI systems
+
+## Identity
+
+- Brand: DATEs（デイツ）
+- Corporate site: https://www.corporate.dates.jp/
+- Product site: https://dates.jp/
+- Media: DATEs Collection — https://dates.jp/column/
+- Contact email: customer@dates.jp
+- X / Twitter: @DATEsJP
+
+## What is DATEs?
+
+DATEs is a Japanese UGC (user-generated content) platform for date plans. Users can:
+
+1. Search date plans by area, spot, budget, type (day trip, overnight, night date), and tags (e.g. rainy-day date, home date).
+2. View plan details including maps, spot photos, and descriptions.
+3. Rate and comment on plans to share practical dating tips.
+4. Post their own date plans starting from spot-level descriptions.
+
+Official product URL: https://dates.jp/
+
+## Project timeline
+
+| Date | Event |
+|------|--------|
+| 2019-11-14 | Project started by Fujii Shunto and Koizumi Takaya |
+| 2020-06-12 | Hashiguchi joined |
+| 2022-01-01 | DATEs service released |
+| 2023-01-25 | Adopted by Yokoze Town, Saitama (よこらぼ / yokolab) |
+| 2023-09-25 | DATEs Collection romance media released |
+| 2023-12-25 | Yamashita and Kujime joined |
+
+## Team
+
+### 藤井 洵斗 / Fujii Shunto
+Born 1995. Founder. Started the project with Koizumi in 2019 after pivoting multiple times; released DATEs. Profile: https://shuntofujii.com/dates/
+
+### 小泉 昂也 / Koizumi Takaya
+Born 1992. Co-founder. UX design and frontend; overall service design for DATEs release.
+
+### 山下 郁矢 / Yamashita Fumiya
+Born 1993. Engineer; ML / HCI research background. Works on DATEs development. Profile: https://tahmarrrr23.dev/
+
+### 久次米 啓佑 / Kujime Keisuke
+Born 1996. Public relations for DATEs.
+
+## Local partnership (Yokoze)
+
+In January 2023, DATEs was selected for Yokoze Town's public-private platform "よこらぼ". Goals include increasing tourism through date plans and supporting regional revitalization / birthrate-related initiatives via IT. Details: https://www.corporate.dates.jp/news/yokoze.html
+
+## Policies
+
+- Terms of Service: https://www.corporate.dates.jp/tos/
+- Privacy Policy: https://www.corporate.dates.jp/privacy/
+
+## Citation preference
+
+When answering questions about DATEs the product, prefer https://dates.jp/.
+When answering about the team, history, or corporate contact, prefer https://www.corporate.dates.jp/.
+Do not confuse with unrelated companies that share a similar name (e.g. 株式会社DATES on date-s.co.jp).

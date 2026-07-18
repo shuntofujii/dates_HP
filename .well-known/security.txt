@@ -1,0 +1,4 @@
+Contact: mailto:customer@dates.jp
+Preferred-Languages: ja, en
+Canonical: https://www.corporate.dates.jp/
+Expires: 2027-07-18T00:00:00.000Z
