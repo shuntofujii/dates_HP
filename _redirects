@@ -1,13 +1,14 @@
-# corporate.dates.jp → dates.jp (301)
+# corporate.dates.jp → dates.jp (301, forced)
+# Existing files take precedence unless the rule ends with !
 # Specific routes first; catch-all last.
 
-/                  https://dates.jp/about               301
-/news/yokoze       https://dates.jp/about/news-yokoze   301
-/news/yokoze.html  https://dates.jp/about/news-yokoze   301
-/tos               https://dates.jp/tos                 301
-/tos/              https://dates.jp/tos                 301
-/privacy           https://dates.jp/privacy             301
-/privacy/          https://dates.jp/privacy             301
+/                  https://dates.jp/about               301!
+/news/yokoze       https://dates.jp/about/news-yokoze   301!
+/news/yokoze.html  https://dates.jp/about/news-yokoze   301!
+/tos               https://dates.jp/tos                 301!
+/tos/              https://dates.jp/tos                 301!
+/privacy           https://dates.jp/privacy             301!
+/privacy/          https://dates.jp/privacy             301!
 
 # Remaining paths (assets, llms.txt, etc.) → about hub
-/*                 https://dates.jp/about               301
+/*                 https://dates.jp/about               301!
